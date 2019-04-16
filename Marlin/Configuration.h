@@ -910,7 +910,7 @@
 #if ENABLED(DUAL_EXTRUDER)
   #define DEFAULT_MAX_FEEDRATE          { 300, 300, 7, 50, 50 }
 #else
-  #define DEFAULT_MAX_FEEDRATE          { 300, 300, 7, 50 }
+  #define DEFAULT_MAX_FEEDRATE          { 300, 300, 7, 70 }
 #endif
 
 /**
